@@ -1,5 +1,11 @@
-# 4DVarNet
+# Addition to 4DVarNet
 
+1. We now initialize the model from a specific kind of initial conditions instead of the observations- random perturbed ICs.
+
+2. We now use strategies to sample the errors in this initial condition to create an ensemble of reconstructions.
+
+3. For the ensemble of states for a gives state of observations, we fix the observations but sample different ICs.
+   
 ## Prerequisite
 - git
 - conda
